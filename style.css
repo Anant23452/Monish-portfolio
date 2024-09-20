@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body,html{
+      width:100%;
+      height:100%;
+  }
+.main{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(135deg, #48deac, #3498db);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home,.about,.skills,.projects,.footer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #48deac, #3498db);
+}
+
+
+/* home page ka style  */
+.home{
+    .flex{
+        gap: 4vw;
+        justify-content: space-evenly;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 1.5vw;
+    }
+}
+
+
+/* nav ka style karna  */
+.home .nav{
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+}
+
+.home .nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.home-content{
+    width: 100%;
+    height: 100vh;
+}
+.home-content .about-me{
+    font-size: 2vw;
+}
+.home-content .photo-frame{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.home-content .photo-frame img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+ .flex{
+    flex-direction: column;
+    gap: 2vh;
+ }
+
+ font-size: 2vw;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-content {
+    height: 100vh;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    h1{
+        text-transform: uppercase;
+        font-size: 4vw;
+    }
+    .para{
+        font-size: 1.8vw;
+        text-align: left;
+        width: 80vw;
+        line-height: 5vh;
+    }
+    ul{
+        font-size: 2vw;
+        text-align: left;
+        width: 80vw;
+        font-weight: bolder;
+        line-height: 6vh;
+    }
+}
+
+
+
+
+.skills{
+    .skills-content{
+        flex-direction: column;
+        h1{
+            font-size: 6vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            height: 15vh;
+        }
+    }
+    .skill-icons{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .skill-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+        height: 20vh;
+    }
+    .skill-item{
+        height: 20vh;
+        width: 10vw;
+        p{
+            font-size: 1.5vw;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            margin-top: 1vh;
+        }
+    }
+
+
+    .web-skills{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            text-align: center;
+            font-size: 4vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            height: 15vh;
+        }
+    }
+    .language-skills{
+        width: 100%;
+        height: 40vh;
+        h2{
+            text-align: center;
+            font-size: 4vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            height: 15vh;
+        }
+    }
+}
+.projects{
+
+}
+
+
+.footer{
+    .foot1{
+
+        width: 100%;
+        height: 50%;
+    }
+    .foot2{
+        width: 100%;
+        height: 50%;
+    }
+}

@@ -1,0 +1,104 @@
+@media screen and (min-width: 488px) and (max-width: 600px) {
+    .home{
+        /* background-color: rgb(125, 113, 113) !important; */
+        height: 100vh !important;
+    }
+    .nav{
+        /* background-color: black !important;; */
+        font-size: 3vw !important;
+    }
+    .home-content{
+        /* background-color: rgb(240, 120, 120) !important; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh !important;
+    }
+    .home-content .about-me{
+        font-size: 6vw;
+        /* background-color: rgb(196, 158, 158); */
+    }
+    .home-content .photo-frame{
+        width: 35vw;
+        height: 20vh;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .about{
+
+        /* background-color: #dadada; */
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+    .about-content {
+        /* background-color: red; */
+        height: 70vh;
+        width: 100vh;
+       
+        
+
+       
+      }
+      .para{
+        font-size: 3vw !important;
+        text-align: left;
+        width: 100vw;
+        line-height:3vh !important;
+    }
+    .skills{
+        /* background-color: bisque; */
+        height: 70vh;
+    }
+    .skills {
+        .skill-icons {
+          display: flex;
+          flex-direction: column;
+          height: 54vh;
+          width: 100vw;
+          overflow: hidden;
+        }
+      }
+      .skills {
+        .web-skills {
+          width: 100%;
+          height: 26vh;
+          display: flex;
+          flex-direction: column;}
+          
+            .language-skills {
+              width: 100%;
+              height: 26vh;
+              h2{
+                height: 7vh;
+              }
+            
+        }}
+
+    .projects{
+        background-color: blueviolet;
+        height: 120vh;
+        
+    }
+    .footer{
+
+        background-color: black;
+        height: 40vh;
+    }
+    .projects-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-items{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.projects-content{
+    .project-items{
+        display: flex;
+        flex-direction: column;
+    }
+}
